@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4800FA8D1E8CD532001FA0E0 /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800FA8C1E8CD532001FA0E0 /* VehicleInfo.swift */; };
+		4800FA8F1E8CD828001FA0E0 /* TIVehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800FA8E1E8CD828001FA0E0 /* TIVehicleInfoViewController.swift */; };
 		4857C23D1E8B943B00458662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C23C1E8B943B00458662 /* main.m */; };
 		4857C2401E8B943B00458662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C23F1E8B943B00458662 /* AppDelegate.m */; };
 		4857C2431E8B943B00458662 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C2421E8B943B00458662 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		4857C24B1E8B943B00458662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4857C2491E8B943B00458662 /* LaunchScreen.storyboard */; };
 		4857C2561E8B943B00458662 /* TestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C2551E8B943B00458662 /* TestProjectTests.m */; };
 		4857C2611E8B943B00458662 /* TestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C2601E8B943B00458662 /* TestProjectUITests.m */; };
+		4857C2701E8B947B00458662 /* TIVehicleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857C26F1E8B947B00458662 /* TIVehicleView.m */; };
+		4857C28A1E8BAD2900458662 /* vehicle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4857C2891E8BAD2900458662 /* vehicle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4800FA881E8CD4FD001FA0E0 /* TestProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		4800FA8C1E8CD532001FA0E0 /* VehicleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleInfo.swift; sourceTree = "<group>"; };
+		4800FA8E1E8CD828001FA0E0 /* TIVehicleInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIVehicleInfoViewController.swift; sourceTree = "<group>"; };
 		4857C2381E8B943B00458662 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4857C23C1E8B943B00458662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4857C23E1E8B943B00458662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		4857C25C1E8B943B00458662 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4857C2601E8B943B00458662 /* TestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectUITests.m; sourceTree = "<group>"; };
 		4857C2621E8B943B00458662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4857C26E1E8B947B00458662 /* TIVehicleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIVehicleView.h; sourceTree = "<group>"; };
+		4857C26F1E8B947B00458662 /* TIVehicleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIVehicleView.m; sourceTree = "<group>"; };
+		4857C2711E8B9DF600458662 /* CONSTANT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANT.h; sourceTree = "<group>"; };
+		4857C2891E8BAD2900458662 /* vehicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vehicle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4800FA8B1E8CD516001FA0E0 /* SWIFT */ = {
+			isa = PBXGroup;
+			children = (
+				4800FA8C1E8CD532001FA0E0 /* VehicleInfo.swift */,
+				4800FA8E1E8CD828001FA0E0 /* TIVehicleInfoViewController.swift */,
+			);
+			path = SWIFT;
+			sourceTree = "<group>";
+		};
 		4857C22F1E8B943B00458662 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +121,21 @@
 		4857C23A1E8B943B00458662 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				4800FA8B1E8CD516001FA0E0 /* SWIFT */,
 				4857C23E1E8B943B00458662 /* AppDelegate.h */,
+				4857C2711E8B9DF600458662 /* CONSTANT.h */,
 				4857C23F1E8B943B00458662 /* AppDelegate.m */,
 				4857C2411E8B943B00458662 /* ViewController.h */,
 				4857C2421E8B943B00458662 /* ViewController.m */,
+				4857C26E1E8B947B00458662 /* TIVehicleView.h */,
+				4857C26F1E8B947B00458662 /* TIVehicleView.m */,
 				4857C2441E8B943B00458662 /* Main.storyboard */,
 				4857C2471E8B943B00458662 /* Assets.xcassets */,
+				4857C2881E8BAD2900458662 /* IMGS */,
 				4857C2491E8B943B00458662 /* LaunchScreen.storyboard */,
 				4857C24C1E8B943B00458662 /* Info.plist */,
 				4857C23B1E8B943B00458662 /* Supporting Files */,
+				4800FA881E8CD4FD001FA0E0 /* TestProject-Bridging-Header.h */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -138,6 +164,14 @@
 				4857C2621E8B943B00458662 /* Info.plist */,
 			);
 			path = TestProjectUITests;
+			sourceTree = "<group>";
+		};
+		4857C2881E8BAD2900458662 /* IMGS */ = {
+			isa = PBXGroup;
+			children = (
+				4857C2891E8BAD2900458662 /* vehicle.png */,
+			);
+			path = IMGS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +241,8 @@
 				TargetAttributes = {
 					4857C2371E8B943B00458662 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JENUR4TX2M;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4857C2501E8B943B00458662 = {
@@ -248,6 +284,7 @@
 			files = (
 				4857C24B1E8B943B00458662 /* LaunchScreen.storyboard in Resources */,
 				4857C2481E8B943B00458662 /* Assets.xcassets in Resources */,
+				4857C28A1E8BAD2900458662 /* vehicle.png in Resources */,
 				4857C2461E8B943B00458662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4857C2431E8B943B00458662 /* ViewController.m in Sources */,
+				4800FA8D1E8CD532001FA0E0 /* VehicleInfo.swift in Sources */,
 				4857C2401E8B943B00458662 /* AppDelegate.m in Sources */,
+				4857C2701E8B947B00458662 /* TIVehicleView.m in Sources */,
+				4800FA8F1E8CD828001FA0E0 /* TIVehicleInfoViewController.swift in Sources */,
 				4857C23D1E8B943B00458662 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -421,28 +461,42 @@
 		4857C2661E8B943B00458662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JENUR4TX2M;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justshareit.thumbit.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4857C2671E8B943B00458662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JENUR4TX2M;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justshareit.thumbit.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		4857C2691E8B943B00458662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -455,6 +509,7 @@
 		4857C26A1E8B943B00458662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +522,7 @@
 		4857C26C1E8B943B00458662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justshareit.thumbit.TestProjectUITests;
@@ -478,6 +534,7 @@
 		4857C26D1E8B943B00458662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justshareit.thumbit.TestProjectUITests;
@@ -505,6 +562,7 @@
 				4857C2671E8B943B00458662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4857C2681E8B943B00458662 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +571,7 @@
 				4857C26A1E8B943B00458662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4857C26B1E8B943B00458662 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +580,7 @@
 				4857C26D1E8B943B00458662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

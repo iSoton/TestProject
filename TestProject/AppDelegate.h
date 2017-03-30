@@ -15,3 +15,5 @@
 
 @end
 
+
+//http://stackoverflow.com/questions/24206732/cant-use-swift-classes-inside-objective-c
